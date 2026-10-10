@@ -1,0 +1,6 @@
+{
+  "version": "0.9.39",
+  "url": "https://raw.githubusercontent.com/decompontop/overpay-releases/main/Overpay-Setup-0.9.39.exe",
+  "sha256": "c8d7d0a6c832904687308ddd0702f21757e071b6e81648fc23ab63193efaf36f",
+  "notes": "Real trade proofs fixed: the bot now finds the Rolimons server (its name has an apostrophe) and the exact #value-requests channel. It understands far more of how people really post proofs (sides split by / or for, overpay-only posts, acronyms in brackets) and reads the screenshots much better: in a live test 108 of 135 posts were understood and 92% of screenshots matched the post."
+}
