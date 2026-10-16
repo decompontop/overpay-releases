@@ -1,0 +1,7 @@
+{
+  "version": "0.9.68",
+  "url": "https://raw.githubusercontent.com/decompontop/overpay-releases/main/Overpay-Setup-0.9.68.exe",
+  "sha256": "5a2258568882b3140769369201c999b621ed3f3e1f9b2647a360e155296b63cc",
+  "notes": "Fixed the \"Needs your OK\" message: it said an item was listed by hundreds of sellers. That was Rolimons' total seller count for the item, not how many sell it cheap. It now shows the real listings, e.g. \"3 sellers under the 145,000 step, from 138,000\".",
+  "sig": "Z2cT42kHPQwOBFSZTQofr3dTMTibLXm1HI5/Hh9P5sDiSmwA1lT9A6eCVdfOo6To7dJmMW4A2B7rQOU5upXwCQ=="
+}
