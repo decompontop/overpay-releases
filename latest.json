@@ -1,0 +1,7 @@
+{
+  "version": "0.9.71",
+  "url": "https://raw.githubusercontent.com/decompontop/overpay-releases/main/Overpay-Setup-0.9.71.exe",
+  "sha256": "ca5b39c19d5791e14476de1ca6c936596ed0a4fb1cce57d6cac9683642fa822f",
+  "notes": "Fixed the bot asking too little for items that were just raised. Real-trade proofs from before an item's last value change can no longer lower an ask below your normal demand-based minimum. Only proofs from after the change can. Example: Green Queen of the Night was raised from 80k to 90k, and almost all its proofs were older. Re-scored at the new value they said +1.9%, so a 1-for-4 went out at +2.8%. It now asks about +9.5% to +12.5%. Older proofs can still raise an ask.",
+  "sig": "tr/jW8ZIE3LswctVHbj5S/7V3oMl7Bjlydr2p6VUQCvVCTontArabPTFj9O5xXF5cVtg20I//5oBs5tVU2nxBw=="
+}
