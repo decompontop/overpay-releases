@@ -1,0 +1,7 @@
+{
+  "version": "0.9.72",
+  "url": "https://raw.githubusercontent.com/decompontop/overpay-releases/main/Overpay-Setup-0.9.72.exe",
+  "sha256": "1ded2a5f57dd54de240cab2b71dbe551e39cc36bdeaea190a1ca64a9b69c4a91",
+  "notes": "Fixed real-trade proofs being read the wrong way round. Many posts write the values in a different order than the items, for example \"Daemon VS Scissors / 153k VS 140k (13k OP ON DAEMON)\". The bot read that as Daemonshank paying 13k, when it actually got the 13k overpay. About 1 in 10 proofs had this. Now the item the overpay is \"on\" or \"for\" always gets the lower value, and a lowball works the other way. Without such a note, the bot compares each side with the items' values on the trade's day, not today's. Notes in [brackets] and in capitals are now read too. 29 items' usual overpay changed by 2 or more points, mostly up. A proof whose values were fixed shows a note on its card.",
+  "sig": "rwu13M7gTG0111ycYjaXAwlQNxiHF2biGMwagVNTijbp4gDmHPeFlZ0tA3NH7WVmGI6U6Rv6raWZTCRJj9whAQ=="
+}
